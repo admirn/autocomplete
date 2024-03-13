@@ -1,0 +1,60 @@
+input {
+  padding: 10px;
+  height: 20px;
+  width: 500px;
+  border: 1px solid green;
+  margin: 10px;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+.optionsContainer {
+  border-width: 0px 1px 1px 1px;
+  border-style: solid;
+  border-color: #e0e0e0;
+  background-color: whitesmoke;
+  max-height: 400px;
+  max-width: 540px;
+  margin-left: 10px;
+  margin-top: -10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.option {
+  display: flex;
+  width: 500px;
+  margin: 5px;
+}
+
+.option:hover {
+  background-color: #ffffff;
+  width: "100%";
+}
+
+.option,
+span {
+  width: 98%;
+  font-size: 14pt;
+  padding: 1px;
+  text-wrap: wrap;
+  text-align: left;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.closeIcon {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.loader {
+  position: absolute;
+  right: 40px;
+  top: 49%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
